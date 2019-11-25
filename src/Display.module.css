@@ -1,0 +1,13 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px #ff4f00;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    height: 100px;
+    width: 192px;
+}
+
+
