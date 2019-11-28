@@ -66,23 +66,23 @@ const reducer = (state: IInitialState = initialState, action: ReducerActionsType
 
 type ReducerActionsType = IOnPlusValue | IOnReset | IOnShowSettings | IOnHideSettings | IOnMaxValueChange | IOnStartValueChange
 
-export interface IOnPlusValue {
+interface IOnPlusValue {
     type: typeof SET_PLUS_VALUE
 }
-export interface IOnReset {
+interface IOnReset {
     type: typeof SET_RESET
 }
-export interface IOnShowSettings {
+interface IOnShowSettings {
     type: typeof SET_SHOW_SETTINGS
 }
-export interface IOnHideSettings {
+interface IOnHideSettings {
     type: typeof SET_HIDE_SETTINGS
 }
-export interface IOnMaxValueChange {
+interface IOnMaxValueChange {
     type: typeof SET_MAX_VALUE
     number: number
 }
-export interface IOnStartValueChange {
+interface IOnStartValueChange {
     type: typeof SET_START_VALUE
     number: number
 }
